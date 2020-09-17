@@ -12,5 +12,6 @@ namespace TestEF.Models
 
         public int Prop1 { get; set; }
         public int Prop2 { get; set; }
+        public string Prop3 { get; set; }
     }
 }

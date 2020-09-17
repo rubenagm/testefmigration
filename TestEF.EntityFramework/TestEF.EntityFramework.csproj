@@ -240,6 +240,10 @@
     <Compile Include="Migrations\202009171846136_M2_Empty_Add.designer.cs">
       <DependentUpon>202009171846136_M2_Empty_Add.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202009171848499_M4_adding_column.cs" />
+    <Compile Include="Migrations\202009171848499_M4_adding_column.designer.cs">
+      <DependentUpon>202009171848499_M4_adding_column.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Table1.cs" />
     <Compile Include="Models\Table2.cs" />
     <Compile Include="TestEFDataModule.cs" />
@@ -350,6 +354,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202009171846136_M2_Empty_Add.resx">
       <DependentUpon>202009171846136_M2_Empty_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009171848499_M4_adding_column.resx">
+      <DependentUpon>202009171848499_M4_adding_column.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
