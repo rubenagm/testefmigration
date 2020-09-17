@@ -56,5 +56,6 @@ namespace TestEF.EntityFramework
         }
 
         public DbSet<Table1> Table1 { get; set; }
+        public DbSet<Table2> Table2 { get; set; }
     }
 }

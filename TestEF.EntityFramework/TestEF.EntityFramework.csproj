@@ -232,7 +232,12 @@
     <Compile Include="Migrations\202009171840512_M1_Table1_Add.designer.cs">
       <DependentUpon>202009171840512_M1_Table1_Add.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202009171843569_M2_Table2_Add.cs" />
+    <Compile Include="Migrations\202009171843569_M2_Table2_Add.designer.cs">
+      <DependentUpon>202009171843569_M2_Table2_Add.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Table1.cs" />
+    <Compile Include="Models\Table2.cs" />
     <Compile Include="TestEFDataModule.cs" />
     <Compile Include="Migrations\201809270654064_InitialMigrations.cs" />
     <Compile Include="Migrations\201809270654064_InitialMigrations.Designer.cs">
@@ -335,6 +340,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202009171840512_M1_Table1_Add.resx">
       <DependentUpon>202009171840512_M1_Table1_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009171843569_M2_Table2_Add.resx">
+      <DependentUpon>202009171843569_M2_Table2_Add.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
