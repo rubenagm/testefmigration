@@ -228,6 +228,11 @@
   <ItemGroup>
     <Compile Include="EntityFramework\TestEFDbContext.cs" />
     <Compile Include="EntityFramework\Repositories\TestEFRepositoryBase.cs" />
+    <Compile Include="Migrations\202009171840512_M1_Table1_Add.cs" />
+    <Compile Include="Migrations\202009171840512_M1_Table1_Add.designer.cs">
+      <DependentUpon>202009171840512_M1_Table1_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Table1.cs" />
     <Compile Include="TestEFDataModule.cs" />
     <Compile Include="Migrations\201809270654064_InitialMigrations.cs" />
     <Compile Include="Migrations\201809270654064_InitialMigrations.Designer.cs">
@@ -327,6 +332,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202003201250482_Ugraded_To_ABP_5_4_0.resx">
       <DependentUpon>202003201250482_Ugraded_To_ABP_5_4_0.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202009171840512_M1_Table1_Add.resx">
+      <DependentUpon>202009171840512_M1_Table1_Add.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

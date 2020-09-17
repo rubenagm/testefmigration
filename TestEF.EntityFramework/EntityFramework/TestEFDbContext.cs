@@ -4,6 +4,7 @@ using Abp.DynamicEntityParameters;
 using Abp.Zero.EntityFramework;
 using TestEF.Authorization.Roles;
 using TestEF.Authorization.Users;
+using TestEF.Models;
 using TestEF.MultiTenancy;
 
 namespace TestEF.EntityFramework
@@ -53,5 +54,7 @@ namespace TestEF.EntityFramework
             modelBuilder.Entity<DynamicParameter>().Property(p => p.ParameterName).HasMaxLength(250);
             modelBuilder.Entity<EntityDynamicParameter>().Property(p => p.EntityFullName).HasMaxLength(250);
         }
+
+        public DbSet<Table1> Table1 { get; set; }
     }
 }
